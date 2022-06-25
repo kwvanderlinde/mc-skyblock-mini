@@ -44,4 +44,4 @@ If you want to play Skyblock Mini with a different seed, follow these instructio
    * Paste the schematic.
 10. Go back to the overworld and destroy the nether portal.
 11. Run `/tick freeze` to unfreeze the world.
-12. You now have a playable world. You can remove the carpet and litematics mods now if you would like.
+12. You now have a playable world. You can remove the carpet and litematica mods now if you would like.
