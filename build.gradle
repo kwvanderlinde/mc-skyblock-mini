@@ -1,0 +1,8 @@
+apply plugin: 'base'
+
+task packageDatapack(type: Zip) {
+    archiveFileName = "SkyblockMini.zip"
+    destinationDirectory = file("$buildDir")
+
+    from "datapacks/SkyblockMini/"
+}
