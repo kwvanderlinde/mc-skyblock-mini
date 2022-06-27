@@ -21,28 +21,17 @@ Skyblock Mini is meant to be run on a dedicated server. Of course it can be run 
 
 First you'll need to get a fabric server setup. Get the [fabric installer](https://fabricmc.net/use/) and set it up in the usual way.
 
-Next, you'll need the excellent [protosky mod](https://github.com/DeadlyMC/ProtoSky). Drop it in your `mods/` folder and you're good to go.
+Next, you'll need the excellent [protosky mod](https://modrinth.com/mod/protosky). Drop it in your `mods/` folder and you're good to go.
 
 ### World setup
 
 If you want to go the easy route, you can find a world download in the [releases page](https://github.com/kwvanderlinde/mc-skyblock-mini/releases). Just download it and add it to your server and you are ready to play!
 
 If you want to play Skyblock Mini with a different seed, follow these instructions:
-1. Add the [carpet mod](https://github.com/gnembon/fabric-carpet/releases) to your server. This is only for the `/tick freeze` command, so you can skip this if you want.
-2. Add the [litematica mod](https://www.curseforge.com/minecraft/mc-mods/litematica) to your client. This is required to load the provided schematics.
-3. Download the schematics and place them in your client's `schematics/` directory.
-4. Download the datapack and place it in your server's `datapacks/` directory.
-5. Start the world in creative mode and join the world.
-6. Run `/tick freeze` to avoid ticking before the world is set up.
-7. Load the overworld schematic.
-   * Make sure the center of the island's "elbow" is the world spawn, and is placed as y=63.
-   *  Paste the schematic.
-8. When standing at spawn, add in the starting sculk catalyst: `/setblock ~ -63 ~ minecraft:sculk_catalyst`
-9. When standing at spawn, run `/setblock ~ ~ ~ minecraft:nether_portal` to go to the nether.
-10. In the nether, load the nether schematic.
-   * Place it so that the portal in the schematic is aligned with the existing nether portal. The bottom block of the schematic should be at y=63.
-   * Destroy the existing nether portal.
-   * Paste the schematic.
-11. Go back to the overworld and destroy the nether portal.
-12. Run `/tick freeze` to unfreeze the world.
-13. You now have a playable world. You can remove the carpet and litematica mods now if you would like.
+1. Start the server for the first time so that the basic folder structure is created.
+2. Accept the EULA.
+3. Place the ProtoSky mod in your `mods/` folder.
+4. Start the server again and immediately stop it. This will allow the world folders to be created as needed.
+5. Download the datapack and place it in your server's `datapacks/` directory.
+6. Start the server again.
+7. And you are ready to play now!
