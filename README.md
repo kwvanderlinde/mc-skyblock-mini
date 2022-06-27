@@ -1,5 +1,7 @@
 # Skyblock Mini
 
+![Starting island](/skyblock_start.png?raw=true "Starting island")
+
 A minimalist's skyblock based on the protosky mod.
 
 Skyblock Mini is a mostly-vanilla version of Skyblock that gives few concessions to the players. It is based on the protosky mod which allows it to be used with any world seed.
@@ -11,7 +13,10 @@ There are a few crafting recipes that have been added:
 * Weeping vines can be crafted into netherrack.
 
 Mob drops have also been modified:
-* The wither has a change to drop a single ancient debris.
+* The wither has a change to drop a single ancient debris when killed by a player.
+* The warden will drop echo shards when killed by a player.
+
+Finally, all sculk shriekers are capable of summoning the warden, and not just the original sculk shrieker in the world.
 
 ## Setup
 
