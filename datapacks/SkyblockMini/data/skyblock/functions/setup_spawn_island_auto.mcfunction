@@ -1,0 +1,3 @@
+scoreboard objectives add skyblock_generated dummy
+execute unless score _skyblock_internal skyblock_generated matches 1 run function skyblock:setup_spawn_island
+scoreboard players set _skyblock_internal skyblock_generated 1
