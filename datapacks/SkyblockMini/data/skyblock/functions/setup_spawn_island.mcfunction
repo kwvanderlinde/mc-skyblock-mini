@@ -42,3 +42,24 @@ execute in the_nether run fill ~-1 ~-1 ~0 ~2 ~3 ~0 minecraft:obsidian
 execute in the_nether run fill ~0 ~ ~0 ~1 ~2 ~0 minecraft:nether_portal
 # We don't want to keep the nether chunks loaded forever!
 execute in the_nether run forceload remove all
+
+
+# Allay cage beneath obsidian platform.
+execute in the_end run forceload add 100 0 100 -1
+execute in the_end run fill 98 44 -2 102 47 2 minecraft:dark_oak_fence
+execute in the_end run fill 99 45 -1 101 47 1 minecraft:air
+execute in the_end run fill 98 47 -2 98 45 -2 minecraft:dark_oak_log[axis=y]
+execute in the_end run fill 102 47 -2 102 45 -2 minecraft:dark_oak_log[axis=y]
+execute in the_end run fill 102 47 2 102 45 2 minecraft:dark_oak_log[axis=y]
+execute in the_end run fill 98 47 2 98 45 2 minecraft:dark_oak_log[axis=y]
+execute in the_end run setblock 98 44 -2 minecraft:dark_oak_slab[type=top]
+execute in the_end run setblock 102 44 -2 minecraft:dark_oak_slab[type=top]
+execute in the_end run setblock 102 44 2 minecraft:dark_oak_slab[type=top]
+execute in the_end run setblock 98 44 2 minecraft:dark_oak_slab[type=top]
+execute in the_end run fill 99 44 -2 101 44 -2 minecraft:dark_oak_stairs[facing=south,half=top,shape=straight]
+execute in the_end run fill 102 44 -1 102 44 1 minecraft:dark_oak_stairs[facing=west,half=top,shape=straight]
+execute in the_end run fill 99 44 2 101 44 2 minecraft:dark_oak_stairs[facing=north,half=top,shape=straight]
+execute in the_end run fill 98 44 -1 98 44 1 minecraft:dark_oak_stairs[facing=east,half=top,shape=straight]
+# I want to be sure this original allay doesn't just disappear!
+execute in the_end run summon minecraft:allay 100 46 0 {PersistenceRequired:1b}
+execute in the_end run forceload remove all
