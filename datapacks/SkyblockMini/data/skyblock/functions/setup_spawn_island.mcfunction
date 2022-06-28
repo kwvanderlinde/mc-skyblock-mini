@@ -7,6 +7,9 @@ fill ~-1 ~-1 ~-1 ~4 ~-1 ~4 minecraft:grass_block
 fill ~-1 ~-3 ~-1 ~4 ~-2 ~4 minecraft:dirt
 fill ~2 ~-3 ~2 ~4 ~-1 ~4 minecraft:air
 setblock ~-1 ~-1 ~4 minecraft:dirt
+# The tiniest proper cave vine, no berries. Bone meal will be required.
+setblock ~ ~-4 ~ minecraft:cave_vines_plant[berries=false]
+setblock ~ ~-5 ~ minecraft:cave_vines[berries=false,age=25]
 
 # The chest
 setblock ~4 ~ ~ minecraft:chest[facing=west]
