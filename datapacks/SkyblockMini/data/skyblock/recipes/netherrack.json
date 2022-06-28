@@ -1,20 +1,16 @@
 {
-    "type": "crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:weeping_vines"
-        },
-        {
-            "item": "minecraft:weeping_vines"
-        },
-        {
-            "item": "minecraft:weeping_vines"
-        },
-        {
+    "type": "crafting_shaped",
+    "pattern": [
+        "11",
+        "11"
+    ],
+    "key": {
+        "1": {
             "item": "minecraft:weeping_vines"
         }
-    ],
+    },
     "result": {
-        "item": "minecraft:netherrack"
+        "item": "minecraft:netherrack",
+        "count": 1
     }
 }

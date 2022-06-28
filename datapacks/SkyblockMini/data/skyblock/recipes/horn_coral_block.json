@@ -1,20 +1,16 @@
 {
-    "type": "crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:horn_coral"
-        },
-        {
-            "item": "minecraft:horn_coral"
-        },
-        {
-            "item": "minecraft:horn_coral"
-        },
-        {
+    "type": "crafting_shaped",
+    "pattern": [
+        "11",
+        "11"
+    ],
+    "key": {
+        "1": {
             "item": "minecraft:horn_coral"
         }
-    ],
+    },
     "result": {
-        "item": "minecraft:horn_coral_block"
+        "item": "minecraft:horn_coral_block",
+        "count": 1
     }
 }
