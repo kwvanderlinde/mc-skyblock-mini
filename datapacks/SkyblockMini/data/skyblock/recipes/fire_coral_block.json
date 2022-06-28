@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "11",
+        "11"
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:fire_coral"
+        }
+    },
+    "result": {
+        "item": "minecraft:fire_coral_block",
+        "count": 1
+    }
+}
