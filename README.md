@@ -9,14 +9,15 @@ Skyblock Mini is a mostly-vanilla version of Skyblock that gives few concessions
 ## Changes from vanilla
 
 There are a few crafting recipes that have been added:
-* Tube and fan corals can be crafted into the corresponding coral blocks.
-* Weeping vines can be crafted into netherrack.
+* 2x2 **Coral** and **Coral Fans** can be crafted into 1 **Coral block** of the corresponding type.
+* 2x2 **Weeping vines** can be crafted into 1 **Netherrack**.
+* 1 **Nether Star** and 2 **Shulker Shells** can be crafted into 1 **Budding Amethyst**, much like crafting a shulker box.
 
 Mob drops have also been modified:
-* The wither has a change to drop a single ancient debris when killed by a player.
-* The warden will drop echo shards when killed by a player.
+* The **Wither** has a chance to drop 1 **Ancient debris** when killed by a player.
+* The **Warden** will drop 2-6 **Echo shards** when killed by a player.
 
-Finally, all sculk shriekers are capable of summoning the warden, and not just the original sculk shrieker in the world.
+Finally, all sculk shriekers are capable of summoning the warden, not just the original sculk shrieker generated in the world.
 
 ## Setup
 
