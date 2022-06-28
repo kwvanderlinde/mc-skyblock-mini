@@ -33,10 +33,19 @@ Next, you'll need the excellent [protosky mod](https://modrinth.com/mod/protosky
 If you want to go the easy route, you can find a world download in the [releases page](https://github.com/kwvanderlinde/mc-skyblock-mini/releases). Just download it and add it to your server and you are ready to play!
 
 If you want to play Skyblock Mini with a different seed, follow these instructions:
-1. Start the server for the first time so that the basic folder structure is created.
-2. Accept the EULA.
-3. Place the ProtoSky mod in your `mods/` folder.
-4. Start the server again and immediately stop it. This will allow the world folders to be created as needed.
-5. Download the datapack and place it in your server's `datapacks/` directory.
-6. Start the server again.
-7. And you are ready to play now!
+1. Create the `./mods/` folder in your server directory and add the [Protosky mod](https://modrinth.com/mod/protosky) to it.
+2. Create the `./world/datapacks` folder and add the Skyblock Mini datapack to it.
+3. Create the `./eula.txt` file with the contents `eula=true`.
+4. Start the fabric server.
+5. Start playing!
+
+### Automated world setup
+
+_Note: Only Linux servers are currently supported_
+
+The easiest way to get a server up and running is via an automated script. Download `setup_skyblock_mini.sh` from the release page. The server setup can be done via these commands and following the prompts:
+```
+wget "https://github.com/kwvanderlinde/mc-skyblock-mini/releases/latest/download/setup_skyblock_mini.sh"
+chmod +x setup_skyblock_mini.sh
+./setup_skyblock_mini.sh
+```
