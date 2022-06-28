@@ -32,10 +32,13 @@ fill ~-1 ~ ~4 ~-1 ~5 ~4 minecraft:oak_log[axis=y]
 setblock ~ -64 ~ minecraft:sculk_shrieker[can_summon=true]
 
 
-# The nether side. Always at (0, 0)
-execute in the_nether run forceload add -1 -1 0 0
-execute in the_nether run fill -1 63 -2 2 63 -1 minecraft:crimson_nylium
-execute in the_nether run fill -1 63 1 2 63 2 minecraft:warped_nylium
-execute in the_nether run fill -1 63 0 2 67 0 minecraft:obsidian
-execute in the_nether run fill 0 64 0 1 66 0 minecraft:nether_portal
+# The nether side. In order for the commands to take effect, we need to make
+# sure chunks are loaded. Be generous. Note that the coordinates are blocks, not
+# chunks.
+execute in the_nether run forceload add ~-32 ~-32 ~32 ~32
+execute in the_nether run fill ~-1 ~-1 ~-2 ~2 ~-1 ~-1 minecraft:crimson_nylium
+execute in the_nether run fill ~-1 ~-1 ~1 ~2 ~-1 ~2 minecraft:warped_nylium
+execute in the_nether run fill ~-1 ~-1 ~0 ~2 ~3 ~0 minecraft:obsidian
+execute in the_nether run fill ~0 ~ ~0 ~1 ~2 ~0 minecraft:nether_portal
+# We don't want to keep the nether chunks loaded forever!
 execute in the_nether run forceload remove all
