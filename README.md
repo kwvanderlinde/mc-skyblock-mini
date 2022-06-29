@@ -44,9 +44,7 @@ If you want to play Skyblock Mini with a different seed, follow these instructio
 
 _Note: Only Linux servers are currently supported_
 
-The easiest way to get a server up and running is via an automated script. Download `setup_skyblock_mini.sh` from the release page. The server setup can be done via these commands and following the prompts:
+The easiest way to get a server up and running is via an automated script. Run the following command to download and run the script, and then follow the prompts:
 ```
-wget "https://github.com/kwvanderlinde/mc-skyblock-mini/releases/latest/download/setup_skyblock_mini.sh"
-chmod +x setup_skyblock_mini.sh
-./setup_skyblock_mini.sh
+wget "https://github.com/kwvanderlinde/mc-skyblock-mini/releases/latest/download/setup_skyblock_mini.sh" && chmod +x setup_skyblock_mini.sh && ./setup_skyblock_mini.sh
 ```
