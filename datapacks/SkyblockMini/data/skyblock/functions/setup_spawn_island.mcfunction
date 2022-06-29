@@ -49,6 +49,7 @@ execute in the_nether run forceload remove all
 
 # Allay cage beneath obsidian platform.
 execute in the_end run forceload add 100 0 100 -1
+execute in the_end run fill 98 48 2 102 48 -2 minecraft:obsidian
 execute in the_end run fill 98 44 -2 102 47 2 minecraft:dark_oak_fence
 execute in the_end run fill 99 45 -1 101 47 1 minecraft:air
 execute in the_end run fill 98 47 -2 98 45 -2 minecraft:dark_oak_log[axis=y]
