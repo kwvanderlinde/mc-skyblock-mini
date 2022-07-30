@@ -66,5 +66,5 @@ execute in the_end run fill 102 44 -1 102 44 1 minecraft:dark_oak_stairs[facing=
 execute in the_end run fill 99 44 2 101 44 2 minecraft:dark_oak_stairs[facing=north,half=top,shape=straight]
 execute in the_end run fill 98 44 -1 98 44 1 minecraft:dark_oak_stairs[facing=east,half=top,shape=straight]
 # I want to be sure this original allay doesn't just disappear!
-execute in the_end run summon minecraft:allay 100 46 0 {PersistenceRequired:1b}
+execute in the_end run summon minecraft:allay 100 46 0 {PersistenceRequired:1b,CustomName:'{"text":"Tinkerbell","color":"light_purple","italic":true,"underlined":true}'}
 execute in the_end run forceload remove all
