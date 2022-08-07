@@ -33,6 +33,8 @@ fill ~-1 ~ ~4 ~-1 ~5 ~4 minecraft:oak_log[axis=y]
 
 # The deep dark
 setblock ~ -64 ~ minecraft:sculk_shrieker[can_summon=true]
+setblock ~ -63 ~ minecraft:sculk_sensor
+fill ~-1 -62 ~-1 ~1 -62 ~1 minecraft:deepslate
 
 
 # The nether side. In order for the commands to take effect, we need to make
@@ -49,6 +51,7 @@ execute in the_nether run forceload remove all
 
 # Allay cage beneath obsidian platform.
 execute in the_end run forceload add 100 0 100 -1
+execute in the_end run fill 98 48 2 102 48 -2 minecraft:obsidian
 execute in the_end run fill 98 44 -2 102 47 2 minecraft:dark_oak_fence
 execute in the_end run fill 99 45 -1 101 47 1 minecraft:air
 execute in the_end run fill 98 47 -2 98 45 -2 minecraft:dark_oak_log[axis=y]
@@ -64,5 +67,5 @@ execute in the_end run fill 102 44 -1 102 44 1 minecraft:dark_oak_stairs[facing=
 execute in the_end run fill 99 44 2 101 44 2 minecraft:dark_oak_stairs[facing=north,half=top,shape=straight]
 execute in the_end run fill 98 44 -1 98 44 1 minecraft:dark_oak_stairs[facing=east,half=top,shape=straight]
 # I want to be sure this original allay doesn't just disappear!
-execute in the_end run summon minecraft:allay 100 46 0 {PersistenceRequired:1b}
+execute unless entity @e[type=minecraft:allay,name=Tinkerbell] in the_end run summon minecraft:allay 100 46 0 {PersistenceRequired:1b,CustomName:'{"text":"Tinkerbell","color":"light_purple","italic":true,"underlined":true}'}
 execute in the_end run forceload remove all

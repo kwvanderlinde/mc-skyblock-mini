@@ -6,6 +6,13 @@ A minimalist's skyblock based on the protosky mod.
 
 Skyblock Mini is a mostly-vanilla version of Skyblock that gives few concessions to the players. It is based on the protosky mod which allows it to be used with any world seed.
 
+## Overview
+
+All blocks have been removed from all dimensions with only a few exceptions:
+- In **The Overworld** there is a **Spawn Island** which holds a **Starter chest** and a **single oak tree**. There is also a **Cave Vine** hanging from its bottom and a **Sculk Shrieker** and **Sculk Sensor** at the bottom of the world.
+- In **The Nether** there is a bit of **Crimson Nylium** and **Warped Nylium** attached to a simple **Nether Portal**.
+- In **The End**, the **Obsidian Platform**, **Obsidian Pillars**, **End Crystals** and **Exit End Portal** have been preserved. Beneath the **Obsidian Platform** is a cage holding a single **Allay**. In the **End Cities**, the **Elytra Item Frames** have also been kept.
+
 ## Changes from vanilla
 
 There are a few crafting recipes that have been added:
@@ -44,9 +51,7 @@ If you want to play Skyblock Mini with a different seed, follow these instructio
 
 _Note: Only Linux servers are currently supported_
 
-The easiest way to get a server up and running is via an automated script. Download `setup_skyblock_mini.sh` from the release page. The server setup can be done via these commands and following the prompts:
+The easiest way to get a server up and running is via an automated script. Run the following command to download and run the script, and then follow the prompts:
 ```
-wget "https://github.com/kwvanderlinde/mc-skyblock-mini/releases/latest/download/setup_skyblock_mini.sh"
-chmod +x setup_skyblock_mini.sh
-./setup_skyblock_mini.sh
+wget "https://github.com/kwvanderlinde/mc-skyblock-mini/releases/latest/download/setup_skyblock_mini.sh" && chmod +x setup_skyblock_mini.sh && ./setup_skyblock_mini.sh
 ```
