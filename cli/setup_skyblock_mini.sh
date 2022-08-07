@@ -40,6 +40,7 @@ java -jar "${SERVER_DIRECTORY}/fabric-installer-${FABRIC_INSTALLER_VERSION}.jar"
 rm "${SERVER_DIRECTORY}/fabric-installer-${FABRIC_INSTALLER_VERSION}.jar"
 printf "${COLOR_INFO}Done running fabric installer.${COLOR_NORMAL}\n"
 
+echo '#!/bin/sh' > "${SERVER_DIRECTORY}/start.sh"
 echo 'java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -Dfml.readTimeout=120 -Dfile.encoding=UTF-8 -jar fabric-server-launch.jar nogui' >> "${SERVER_DIRECTORY}/start.sh"
 chmod +x "${SERVER_DIRECTORY}/start.sh"
 
