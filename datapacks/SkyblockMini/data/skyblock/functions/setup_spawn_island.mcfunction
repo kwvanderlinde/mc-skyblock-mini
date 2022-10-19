@@ -33,8 +33,6 @@ fill ~-1 ~ ~4 ~-1 ~5 ~4 minecraft:oak_log[axis=y]
 
 # The deep dark
 setblock ~ -64 ~ minecraft:sculk_shrieker[can_summon=true]
-setblock ~ -63 ~ minecraft:sculk_sensor
-fill ~-1 -62 ~-1 ~1 -62 ~1 minecraft:deepslate
 
 
 # The nether side. In order for the commands to take effect, we need to make

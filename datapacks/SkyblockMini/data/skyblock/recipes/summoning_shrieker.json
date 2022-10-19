@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:echo_shard"
+    },
+    "2": {
+      "item": "minecraft:sculk_shrieker"
+    }
+  },
+  "result": {
+    "item": "minecraft:sculk_shrieker",
+    "data": {
+      "display": {
+        "Name": "{\"text\":\"Summoning Sculk Shrieker\"}"
+      },
+      "BlockStateTag": {
+        "can_summon": "true"
+      }
+    }
+  }
+}

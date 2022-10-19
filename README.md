@@ -19,12 +19,11 @@ There are a few crafting recipes that have been added:
 * 2x2 **Coral** and **Coral Fans** can be crafted into 1 **Coral block** of the corresponding type.
 * 2x2 **Weeping vines** can be crafted into 1 **Netherrack**.
 * 1 **Nether Star** and 2 **Shulker Shells** can be crafted into 1 **Budding Amethyst**, much like crafting a shulker box.
+* 1 **Sculk Shrieker** surrounded by 8 **Echo Shards** can be crafted into 1 **Summoning Sculk Shrieker** capable of summoning the Warden.
 
 Mob drops have also been modified:
 * The **Wither** has a chance to drop 1 **Ancient debris** when killed by a player.
 * The **Warden** will drop 2-6 **Echo shards** when killed by a player.
-
-Finally, all sculk shriekers are capable of summoning the warden, not just the original sculk shrieker generated in the world.
 
 ## Setup
 
@@ -34,7 +33,7 @@ Skyblock Mini is meant to be run on a dedicated server. Of course it can be run 
 
 First you'll need to get a fabric server setup. Get the [fabric installer](https://fabricmc.net/use/) and set it up in the usual way.
 
-Next, you'll need the excellent [protosky mod](https://modrinth.com/mod/protosky). Drop it in your `mods/` folder and you're good to go.
+Next, you'll need the excellent [protosky](https://modrinth.com/mod/protosky) and [nbt-crafting](https://github.com/Siphalor/nbt-crafting) mods. Drop them into your `mods/` folder and you're good to go.
 
 ### World setup
 
