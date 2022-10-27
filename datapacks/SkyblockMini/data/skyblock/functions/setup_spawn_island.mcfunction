@@ -14,10 +14,9 @@ setblock ~ ~-5 ~ minecraft:cave_vines[berries=false,age=25]
 # The chest
 setblock ~4 ~ ~ minecraft:chest[facing=west]
 item replace block ~4 ~ ~ container.0 with minecraft:ice 1
-item replace block ~4 ~ ~ container.1 with minecraft:lava_bucket 1
 item replace block ~4 ~ ~ container.8 with minecraft:mycelium 1
-item replace block ~4 ~ ~ container.18 with minecraft:cocoa_beans 1
-item replace block ~4 ~ ~ container.26 with minecraft:obsidian 10
+item replace block ~4 ~ ~ container.9 with minecraft:lava_bucket 1
+item replace block ~4 ~ ~ container.17 with minecraft:cocoa_beans 1
 
 # The tree
 fill ~-3 ~3 ~2 ~1 ~4 ~6 minecraft:oak_leaves
