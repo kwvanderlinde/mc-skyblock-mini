@@ -20,6 +20,7 @@ There are a few crafting recipes that have been added:
 * 2x2 **Weeping vines** can be crafted into 1 **Netherrack**.
 * 1 **Nether Star** and 2 **Shulker Shells** can be crafted into 1 **Budding Amethyst**, much like crafting a shulker box.
 * 1 **Sculk Shrieker** surrounded by 8 **Echo Shards** can be crafted into 1 **Summoning Sculk Shrieker** capable of summoning the Warden.
+* 2 **Cobblestone** and 2 **Coal** crossed (same pattern as crafting diorite) can be crafted into 2 **Cobbled Deepslate**.
 
 Mob drops have also been modified:
 * The **Wither** has a chance to drop 1 **Ancient debris** when killed by a player.
