@@ -10,7 +10,14 @@
       "item": "minecraft:echo_shard"
     },
     "2": {
-      "item": "minecraft:sculk_shrieker"
+      "item": "minecraft:sculk_shrieker",
+      "data": {
+        "deny": {
+          "BlockStateTag": {
+            "can_summon": "true"
+          }
+        }
+      }
     }
   },
   "result": {
