@@ -10,7 +10,6 @@ COLOR_NORMAL="$(tput sgr0)"
 
 FABRIC_API_VERSION='0.87.0+1.20.1'
 PROTOSKY_VERSION='1.1.12'
-NBT_CRAFTING_VERSION='2.2.3+mc1.19'
 FABRIC_INSTALLER_VERSION='0.11.2'
 MINECRAFT_VERSION='1.20.1'
 
@@ -34,7 +33,6 @@ mkdir -p "${MODS_DIRECTORY}"
 mkdir -p "${DATAPACKS_DIRECTORY}"
 wget --quiet --show-progress "https://github.com/FabricMC/fabric/releases/download/${FABRIC_API_VERSION}/fabric-api-${FABRIC_API_VERSION}.jar" -P "${MODS_DIRECTORY}"
 wget --quiet --show-progress "https://github.com/DeadlyMC/ProtoSky/releases/download/${PROTOSKY_VERSION}/protosky-${PROTOSKY_VERSION}.jar" -P "${MODS_DIRECTORY}"
-wget --quiet --show-progress "https://github.com/Siphalor/nbt-crafting/releases/download/v${NBT_CRAFTING_VERSION}/nbtcrafting-${NBT_CRAFTING_VERSION}.jar" -P "${MODS_DIRECTORY}"
 wget --quiet --show-progress "https://github.com/kwvanderlinde/mc-skyblock-mini/releases/latest/download/SkyblockMini.zip" -P "${DATAPACKS_DIRECTORY}"
 wget --quiet --show-progress "https://maven.fabricmc.net/net/fabricmc/fabric-installer/${FABRIC_INSTALLER_VERSION}/fabric-installer-${FABRIC_INSTALLER_VERSION}.jar" -P "${SERVER_DIRECTORY}"
 printf "${COLOR_INFO}Done downloading dependencies.${COLOR_NORMAL}\n"

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": "minecraft:echo_shard",
+    "2": "minecraft:sculk_shrieker"
+  },
+  "result": {
+    "id": "minecraft:sculk_shrieker",
+    "count": 1,
+    "components": {
+      "custom_name": "{\"text\":\"Summoning Sculk Shrieker\"}",
+      "block_state": {"can_summon": "true"}
+    }
+  }
+}

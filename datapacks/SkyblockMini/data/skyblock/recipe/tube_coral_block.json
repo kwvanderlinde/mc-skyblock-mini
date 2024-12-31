@@ -5,12 +5,10 @@
         "11"
     ],
     "key": {
-        "1": {
-            "item": "minecraft:brain_coral"
-        }
+        "1": "minecraft:tube_coral"
     },
     "result": {
-        "item": "minecraft:brain_coral_block",
+        "id": "minecraft:tube_coral_block",
         "count": 1
     }
 }

@@ -5,12 +5,10 @@
         "11"
     ],
     "key": {
-        "1": {
-            "item": "minecraft:horn_coral_fan"
-        }
+        "1": "minecraft:bubble_coral_fan"
     },
     "result": {
-        "item": "minecraft:horn_coral_block",
+        "id": "minecraft:bubble_coral_block",
         "count": 1
     }
 }

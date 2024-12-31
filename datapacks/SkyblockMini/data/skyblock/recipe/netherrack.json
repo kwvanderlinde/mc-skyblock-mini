@@ -5,12 +5,10 @@
         "11"
     ],
     "key": {
-        "1": {
-            "item": "minecraft:horn_coral"
-        }
+        "1": "minecraft:weeping_vines"
     },
     "result": {
-        "item": "minecraft:horn_coral_block",
+        "id": "minecraft:netherrack",
         "count": 1
     }
 }

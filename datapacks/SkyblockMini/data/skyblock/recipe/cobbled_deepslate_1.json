@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "12",
+        "21"
+    ],
+    "key": {
+        "1": "minecraft:cobblestone",
+        "2": "minecraft:coal"
+    },
+    "result": {
+        "id": "minecraft:cobbled_deepslate",
+        "count": 2
+    }
+}

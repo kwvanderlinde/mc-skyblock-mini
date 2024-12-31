@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "1",
+        "2",
+        "1"
+    ],
+    "key": {
+        "1": "minecraft:shulker_shell",
+        "2": "minecraft:nether_star"
+    },
+    "result": {
+        "id": "minecraft:budding_amethyst",
+        "count": 1
+    }
+}

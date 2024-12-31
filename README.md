@@ -34,14 +34,14 @@ Skyblock Mini is meant to be run on a dedicated server. Of course it can be run 
 
 First you'll need to get a fabric server setup. Get the [fabric installer](https://fabricmc.net/use/) and set it up in the usual way.
 
-Next, you'll need the excellent [Protosky](https://modrinth.com/mod/protosky) and [Nbt Crafting](https://github.com/Siphalor/nbt-crafting) mods. Drop them into your `mods/` folder and you're good to go.
+Next, you'll need the excellent [Protosky](https://modrinth.com/mod/protosky) mod. Drop them into your `mods/` folder and you're good to go.
 
 ### World setup
 
 If you want to go the easy route, you can find a world download in the [releases page](https://github.com/kwvanderlinde/mc-skyblock-mini/releases). Just download it and add it to your server and you are ready to play!
 
 If you want to play Skyblock Mini with a different seed, follow these instructions:
-1. Create the `./mods/` folder in your server directory and add the [Protosky](https://modrinth.com/mod/protosky) and [Nbt Crafting](https://github.com/Siphalor/nbt-crafting) mods to it.
+1. Create the `./mods/` folder in your server directory and add the [Protosky](https://modrinth.com/mod/protosky) mods to it.
 2. Create the `./world/datapacks` folder and add the Skyblock Mini datapack to it.
 3. Create the `./eula.txt` file with the contents `eula=true`.
 4. Start the fabric server.
